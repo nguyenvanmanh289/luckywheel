@@ -19,7 +19,7 @@ else{
   canvas1.setAttribute('width',`${window.innerHeight*6/10}`)
 }
 
-arrow.style.top = `${canvas1.getBoundingClientRect().top + canvas1.clientHeight}px`;
+arrow.style.top = `${canvas1.getBoundingClientRect().top + canvas1.clientHeight*7.3/10}px`;
 
 
 inputtall.addEventListener('mousedown', (event) => {
